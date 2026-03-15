@@ -34,8 +34,8 @@ export default function Portfolio() {
       title: "Art Portfolio",
       desc: "Visual storytelling through digital strokes and immersive UI.",
       tech: ["Next.js", "Typescript", "Tailwind"],
-      liveLink: "https://your-art-portfolio.vercel.app",
-      githubLink: "https://github.com/youruser/art-portfolio",
+      liveLink: "https://musedev.vercel.app/",
+      githubLink: "https://github.com/001demilade/portfolio",
       image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800"
     }
   ];
