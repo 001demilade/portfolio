@@ -32,8 +32,8 @@ export default function Portfolio() {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
     },
     {
-      title: "Art Portfolio",
-      desc: "Visual storytelling through digital strokes and immersive UI.",
+      title: "Web Dev Portfolio",
+      desc: "A modern, full-stack portfolio featuring real-time interactions and dynamic theme switching.",
       tech: ["Next.js", "Typescript", "Tailwind"],
       liveLink: "https://musedev.vercel.app/",
       githubLink: "https://github.com/001demilade/portfolio",
