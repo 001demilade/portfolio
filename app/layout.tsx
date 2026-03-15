@@ -27,7 +27,7 @@ export const metadata = {
     siteName: 'Demilade Portfolio',
     images: [
       {
-        url: '/opengraph-image.png', // This looks in your /public folder
+        url: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80',
         width: 1200,
         height: 630,
       },
