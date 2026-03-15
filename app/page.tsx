@@ -25,7 +25,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Task-Management",
-      desc: "A high-performance analytics suite with real-time data streaming.",
+      desc: "A sleek, highly-responsive task organizer with advanced filtering and persistent local state.",
       tech: ["Next.js", "TypeScript", "Tailwind"],
       liveLink: "https://suree.netlify.app/",
       githubLink: "https://github.com/001demilade/task",
