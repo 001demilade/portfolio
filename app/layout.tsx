@@ -16,18 +16,18 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   // 1. ADD THIS LINE (Replace with your actual Vercel URL)
-  metadataBase: new URL('https://your-portfolio-name.vercel.app'), 
+  metadataBase: new URL('https://musedev.vercel.app/'), 
   
   title: "Demilade Dare | Full-Stack Developer",
   description: "Immersive web experiences and bold design.",
   openGraph: {
     title: "Demilade Dare | Portfolio",
     description: "Full-stack developer specializing in Next.js and modern UI.",
-    url: 'https://your-portfolio-name.vercel.app',
+    url: 'https://musedev.vercel.app/',
     siteName: 'Demilade Portfolio',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80',
+        url: '/image001.jpg', // This looks in your /public folder
         width: 1200,
         height: 630,
       },
