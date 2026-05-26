@@ -32,11 +32,19 @@ export default function Portfolio() {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
     },
     {
-      title: "Web Dev Portfolio",
-      desc: "A modern, full-stack portfolio featuring real-time interactions and dynamic theme switching.",
+       title: "Artist Portfolio",
+      desc: "A visually stunning portfolio for artist, showcasing work with smooth animations.",
       tech: ["Next.js", "Typescript", "Tailwind"],
-      liveLink: "https://musedev.vercel.app/",
-      githubLink: "https://github.com/001demilade/portfolio",
+      liveLink: "https://lazyartsng.vercel.app/",
+      githubLink: "https://github.com/001demilade/lazyartsng",
+      image: "/image001.jpg"
+    },
+    {
+      title: "Deeluxe Hair Collection",
+      desc: "A sleek, modern e-commerce site for a hair brand, featuring dynamic product displays and smooth user interactions.",
+      tech: ["Next.js", "Typescript", "Tailwind"],
+      liveLink: "https://deeluxe.vercel.app/",
+      githubLink: "https://github.com/001demilade/deeluxe",
       image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800"
     }
   ];
@@ -258,7 +266,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="reveal flex flex-col items-center text-center mb-20">
             <h2 className="text-sm font-black uppercase tracking-[0.5em] text-purple-500 mb-6">Get in Touch</h2>
-            <h3 className={`text-6xl md:text-8xl font-black ${theme === 'light' ? 'text-slate-900' : 'text-white'} tracking-tighter mb-10 leading-none italic uppercase`}>Let's Build Something.</h3>
+            <h3 className={`text-6xl md:text-8xl font-black ${theme === 'light' ? 'text-slate-900' : 'text-white'} tracking-tighter mb-10 leading-none italic uppercase`}>Let&apos;s Build Something.</h3>
             
             <form action="https://formspree.io/f/mlgpwonj" method="POST" className={`w-full max-w-3xl ${theme === 'light' ? 'bg-white shadow-2xl' : 'bg-white/5'} backdrop-blur-xl border ${theme === 'light' ? 'border-purple-100' : 'border-white/10'} p-8 md:p-12 rounded-[2.5rem] space-y-6`}>
               <div className="grid md:grid-cols-2 gap-6 text-left">

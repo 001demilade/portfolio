@@ -27,13 +27,13 @@ export default function NotFound() {
             Lost in <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-500">Cyberspace?</span>
           </h2>
           <p className="text-slate-400 max-w-md mx-auto text-lg leading-relaxed">
-            The page you're looking for has been moved, deleted, or never existed in this dimension.
+            The page you&apos;re looking for has been moved, deleted, or never existed in this dimension.
           </p>
         </div>
 
         <div className="pt-8 flex flex-col md:flex-row gap-4 justify-center">
           <a 
-            href="/" 
+            href="/link" 
             className="flex items-center gap-2 px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-2xl transition-all hover:scale-105 shadow-xl shadow-purple-500/20"
           >
             <Home size={20} />
